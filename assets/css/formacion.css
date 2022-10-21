@@ -1,0 +1,131 @@
+.formacion__img {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.formacion__img img {
+  height: 40px;
+  width: 40px;
+}
+.formacion {
+  background-color: var(--background-ceniza-claro);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.formacion__titulo {
+  color: var(--fuente-ceniza-oscuro);
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: var(--montserrat);
+  text-transform: uppercase;
+  text-align: center;
+
+  margin-bottom: 1.25rem;
+}
+
+.formacion__tarjetas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tarjetas__formacion {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--background-blanco);
+
+  width: 100%;
+  max-width: 300px;
+
+  margin-bottom: 2rem;
+
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 2px #00000010;
+}
+
+.tarjetas__formacion__titulo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+
+  padding: 0.75rem 0;
+
+  margin-bottom: 0.5rem;
+
+  border-bottom: 1px solid var(--background-azul-claro);
+}
+
+.tarjetas__formacion__contenido {
+  padding: 0 15%;
+  height: 300px;
+}
+
+.tarjetas__formacion__precio {
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.tarjetas__formacion__texto {
+  color: var(--fuente-ceniza-oscuro);
+  line-height: 28px;
+}
+
+.tarjetas__formacion__boton {
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  width: 100%;
+
+  align-self: center;
+
+  padding: 0.75rem 2rem;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tarjetas__formacion--start {
+  color: var(--planes-card-start);
+}
+
+.tarjetas__formacion--ultra {
+  color: var(--planes-card-ultra);
+}
+
+.tarjetas__formacion--mega {
+  color: var(--planes-card-mega);
+}
+
+.tarjetas__formacion__boton--start {
+  border-color: var(--planes-card-start);
+}
+
+.tarjetas__formacion__boton--ultra {
+  border-color: var(--planes-card-ultra);
+}
+
+.tarjetas__formacion__boton--mega {
+  border-color: var(--planes-card-mega);
+}
+
+@media screen and (min-width: 1024px) {
+  .formacion__tarjetas {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .tarjetas__formacion {
+    width: 32%;
+    max-width: 550px;
+  }
+}

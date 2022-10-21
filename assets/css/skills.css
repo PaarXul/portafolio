@@ -41,7 +41,7 @@
 
   background-color: var(--background-blanco);
 
-  width: 40%;
+  width: 45%;
   max-width: 300px;
 
   margin-bottom: 2rem;
@@ -54,12 +54,10 @@
   font-weight: 700;
   font-size: 1.5rem;
   text-align: center;
-
   padding: 0.75rem 0;
-
   margin-bottom: 0.5rem;
+  border-bottom: inset;
 
-  border-bottom: 1px solid var(--background-azul-claro);
 }
 
 .tarjetas__contenido {
@@ -71,7 +69,6 @@
   font-weight: 700;
   font-size: 3rem;
   text-align: center;
-
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
@@ -84,13 +81,9 @@
 .tarjetas__boton {
   font-size: 1.2rem;
   font-weight: 700;
-
   width: 100%;
-
   align-self: center;
-
   padding: 0.75rem 2rem;
-
   margin-top: 1rem;
   margin-bottom: 1rem;
 }

@@ -1,5 +1,5 @@
 .formacion__img {
-  height: 100px;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -8,8 +8,8 @@
 }
 
 .formacion__img img {
-  height: 40px;
-  width: 40px;
+  height: 200px;
+  width: 270px;
 }
 .formacion {
   background-color: var(--background-ceniza-claro);
@@ -51,19 +51,23 @@
 
 .tarjetas__formacion__titulo {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
 
   padding: 0.75rem 0;
+}
+.tarjetas__formacion__subtitulo {
+  font-weight: 700;
+  font-size: .75rem;
+  text-align: center;
 
-  margin-bottom: 0.5rem;
-
-  border-bottom: 1px solid var(--background-azul-claro);
+  padding: 0.75rem 0;
 }
 
 .tarjetas__formacion__contenido {
-  padding: 0 15%;
+  padding: 0 5%;
   height: 300px;
+  border-bottom: inset;
 }
 
 .tarjetas__formacion__precio {

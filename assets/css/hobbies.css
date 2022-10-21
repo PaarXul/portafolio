@@ -40,7 +40,7 @@
 
   background-color: var(--background-blanco);
 
-  width: 40%;
+  width: 45%;
   max-width: 300px;
 
   margin-bottom: 2rem;
@@ -57,8 +57,7 @@
   padding: 0.75rem 0;
 
   margin-bottom: 0.5rem;
-
-  border-bottom: 1px solid var(--background-azul-claro);
+  border-bottom: inset;
 }
 
 .tarjetas__contenido {

@@ -30,12 +30,14 @@
     <!--<img class="head__logo" src="/assets/img/vector.png" alt="Icon"> -->
     <nav class="head__navegacion">
       <ul>
-        <li class="head__enlace"><a href="#">Sobre mi</a></li>
-        <li class="head__enlace"><a href="#">Skills</a></li>
-        <li class="head__enlace"><a href="#">Hobbies</a></li>
-        <li class="head__enlace"><a href="#">Formación</a></li>
-        <li class="head__enlace"><a href="#">Proyectos</a></li>
-        <li class="head__enlace"><a href="#">Contacto@fulano.com</a></li>
+        <li class="head__enlace"><a href="#sobre_mi">Sobre mi</a></li>
+        <li class="head__enlace"><a href="#skills">Skills</a></li>
+        <li class="head__enlace"><a href="#hobbies">Hobbies</a></li>
+        <li class="head__enlace"><a href="#formacion">Formación</a></li>
+        <li class="head__enlace"><a href="#professional">Proyectos</a></li>
+        <li class="head__enlace"><a href="#contacto">Contacto</a></li>
+        <li class="head__enlace"><a href="#contacto">Gian.parra96@gmail.com</a></li>
+
       </ul>
     </nav>
   </header>
@@ -43,8 +45,8 @@
 
     <!-- title-->
 
-    <section class="title container">
-      <h1 class="title__titulo">Hola, mi nombre es Gian de Chile y soy programador</h1>
+    <section class="title container" id="title">
+      <h1 class="title__titulo">Hola, mi nombre es Gian de Chile y soy DEV en formación</h1>
       <p class="title__texto">Soy formado en la Universidad Tecnológica de Chile y actualmente estoy
         participando del proyecto ONE Oracle Next Education en Alura Latam.</p>
 
@@ -59,21 +61,19 @@
 
     <!-- about-->
 
-    <section class="sobre_mi container">
+    <section class="sobre_mi container" id="sobre_mi">
       <div class="sobre_mi__contenido">
         <h2 class="sobre_mi__titulo">Sobre Mi</h2>
         <p class="sobre_mi__texto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit,
-          volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
-          potenti. Ut semper sagittis ligula et lacinia.
+          Soy un entusiasta por el desarrollo de software, además aporto una actitud positiva y motivación para aprender
+          nuevas
+          tecnologías que me puedan ayudar a seguir avanzando a nivel profesional.
         </p>
         <p class="sobre_mi__texto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit,
-          volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
-          potenti. Ut semper sagittis ligula et lacinia.
+          Y me gusta afrontar nuevos desafíos que me ayuden a desenvolverme a ser un mejor profesional.
         </p>
         <p class="sobre_mi__texto sobre-mi__texto--destacado sobre-mi__texto--division">
-          ¡Tenemos un equipo especializado y exclusivo para proyectos increíbles!
+          ¡Gracias por entrar a ver mi trayectoria!
         </p>
         <p class="sobre_mi__texto">AJ PaarXul</p>
       </div>
@@ -81,7 +81,7 @@
 
     <!-- Skills-->
 
-    <section class="skills container">
+    <section class="skills container" id="skills">
       <h2 class="skills__titulo">Skills</h2>
       <ul class="skills__tarjetas">
         <li class="tarjetas tarjetas--start">
@@ -137,7 +137,7 @@
 
     <!-- Hobbies-->
 
-    <section class="hobbies container">
+    <section class="hobbies container" id="hobbies">
       <h2 class="hobbies__titulo">Hobbies</h2>
       <ul class="hobbies__tarjetas">
         <li class="tarjetas tarjetas--start">
@@ -148,7 +148,7 @@
             </div>
           </articule>
         </li>
-        <li class="tarjetas tarjetas--ultra">
+        <li class="tarjetas tarjetas--start">
           <h3 class="tarjetas__titulo">Futbol</h3>
           <articule class="tarjetas__contenido">
             <div class="hobbies__img">
@@ -156,7 +156,7 @@
             </div>
           </articule>
         </li>
-        <li class="tarjetas tarjetas--mega">
+        <li class="tarjetas tarjetas--ultra">
           <h3 class="tarjetas__titulo">Playa</h3>
           <articule class="tarjetas__contenido">
             <div class="hobbies__img">
@@ -164,7 +164,7 @@
             </div>
           </articule>
         </li>
-        <li class="tarjetas tarjetas--mega">
+        <li class="tarjetas tarjetas--ultra">
           <h3 class="tarjetas__titulo">Peliculas</h3>
           <articule class="tarjetas__contenido">
             <div class="hobbies__img">
@@ -193,7 +193,7 @@
 
     <!-- Formación-->
 
-    <section class="formacion container">
+    <section class="formacion container" id="formacion">
       <h2 class="formacion__titulo">Formación</h2>
       <ul class="formacion__tarjetas">
         <li class="tarjetas__formacion tarjetas--start">
@@ -232,7 +232,7 @@
 
     <!-- Professional-->
 
-    <section class="professional container">
+    <section class="professional container" id="professional">
       <h2 class="professional__titulo">Experiencia Profesional</h2>
       <div class="izquierdo" href="#">
         <figure class="professional__panel">
@@ -294,20 +294,9 @@
     <!-- footer-->
 
     <footer class="footer container">
-      <img src="/assets/img/logo-apeperia.svg" alt="Logo de Apeperia" class="footer__logo">
-      <ul class="footer__social">
-        <li><a href="#" class="footer__midia"><img src="/assets/img/facebook.png" alt="Ícono de Facebook"></a></li>
-        <li><a href="#" class="footer__midia"><img src="/assets/img/instagram.png" alt="Ícono de Instagram"></a></li>
-        <li><a href="#" class="footer__midia"><img src="/assets/img/twitter.png" alt="Ícono de Twitter"></a></li>
-      </ul>
       <nav>
         <ul class="footer__navegacion">
-          <li class="footer__enlace"><a href="#">Sobre mi</a></li>
-          <li class="footer__enlace"><a href="#">Skills</a></li>
-          <li class="footer__enlace"><a href="#">Hobbies</a></li>
-          <li class="footer__enlace"><a href="#">Formación</a></li>
-          <li class="footer__enlace"><a href="#">Proyectos</a></li>
-          <li class="footer__enlace"><a href="#">Contacto</a></li>
+          <li class="footer__enlace">&copy Gian Parra</li>
         </ul>
       </nav>
     </footer>

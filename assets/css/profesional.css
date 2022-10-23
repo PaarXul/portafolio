@@ -113,11 +113,5 @@ figure .boton {
     margin-left: 0rem;
     margin-right: 0rem;
   }
-  .formcontato__contacto .formcontato__text {
-    padding-left: 0;
-  }
-  .formcontato__input {
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
-  }
+
 }

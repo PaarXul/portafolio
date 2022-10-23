@@ -47,6 +47,7 @@ section.formcontato {
   flex-direction: column;
   padding-left: 1rem;
   width: 100%;
+  color: --fuente-ceniza-oscuro;
 }
 .formcontato__title {
   font-size: 2rem;
@@ -96,11 +97,27 @@ section.formcontato {
   background-color: #fdfdfd;
   color: #8d0606;
 }
+h2.formcontato__title {
+  color: var(--fuente-ceniza-oscuro);
+}
+.formcontato__subtext {
+  color: var(--fuente-ceniza-oscuro);
+}
+.formcontato__subtext {
+  color: var(--fuente-ceniza-oscuro);
+}
 @media screen and (max-width: 1024px) {
   .formcontato--esquerda {
     display: none;
   }
   .contacto__boton {
     width: 50%;
+  }
+  .formcontato__contacto .formcontato__text {
+    padding-left: 0;
+  }
+  .formcontato__input {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
   }
 }

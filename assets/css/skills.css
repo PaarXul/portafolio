@@ -8,8 +8,8 @@
 }
 
 .skills__img img {
-  height: 40px;
-  width: 40px;
+  height: 86px;
+  width: 86px;
 }
 
 .skills {
@@ -63,6 +63,8 @@
 .tarjetas__contenido {
   padding: 0 15%;
   height: 100px;
+    margin-bottom: 1rem;
+
 }
 
 .tarjetas__precio {
@@ -118,8 +120,8 @@
     justify-content: space-between;
     align-items: flex-end;
   }
-  .tarjetas {
-    width: 19%;
+  .skills__tarjetas .tarjetas {
+    width: 15%;
     max-width: 250px;
   }
 }

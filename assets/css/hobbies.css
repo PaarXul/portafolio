@@ -8,8 +8,8 @@
 }
 
 .hobbies__img img {
-  height: 40px;
-  width: 40px;
+  height: 86px;
+  width: 86px;
 }
 .hobbies {
   background-color: var(--background-ceniza-claro);
@@ -123,8 +123,8 @@
     justify-content: space-between;
     align-items: flex-end;
   }
-  .tarjetas {
-    width: 19%;
+  .hobbies__tarjetas .tarjetas {
+    width: 15%;
     max-width: 250px;
   }
 }

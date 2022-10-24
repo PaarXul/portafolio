@@ -5,21 +5,8 @@
 
     background-color: var(--background-footer);
 
-    padding-top: 2.5rem;
-    padding-bottom: 2rem;
-}
-
-.footer__social {
-    display: flex;
-}
-
-.footer__midia {
-    display: block;
-
-    width: 42px;
-    height: 42px;
-
-    margin: 2rem 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .footer__navegacion {

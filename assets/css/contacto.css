@@ -22,10 +22,9 @@
 
 .contacto__boton {
   color: var(--boton-rojo);
-
   border-color: var(--boton-rojo);
-
   margin-top: 1.25rem;
+  box-shadow: 0 2px 10px 5px #00000020;
 }
 
 /*Contacto*/
@@ -71,6 +70,10 @@ section.formcontato {
 
 .formcontato__input {
   height: 10%;
+  border-radius: 5px;
+  border-color: var(--background-ceniza-medio);
+  border-style: double;
+  box-shadow: 0 2px 10px 5px #00000020;
 }
 
 .formcontato__botao {
@@ -82,15 +85,27 @@ section.formcontato {
 .formcontato__input:hover {
   background-color: #8d0606;
   color: #fdfdfd;
+  border-radius: 5px;
 }
 .formcontato__input:hover::placeholder {
   background-color: #8d0606;
   color: #fdfdfd;
+  border-radius: 5px;
 }
 
 .formcontato__textarea:hover {
   background-color: #8d0606;
   color: #fdfdfd;
+  border-radius: 5px;
+}
+.formcontato__textarea {
+  border-radius: 5px;
+  border-color: var(--background-ceniza-medio);
+  border-style: double;
+  box-shadow: 0 2px 10px 5px #00000020;
+}
+.formcontato__textarea::placeholder {
+  border-radius: 5px;
 }
 
 .formcontato__botao:hover {

@@ -51,11 +51,21 @@
   margin: 0 auto;
   box-shadow: 0 2px 10px 5px #00000020;
 }
+.center__boton .professional__boton:hover {
+  color: var(--background-ceniza-claro);
+  background-color: var(--boton-rojo);
+  border-color: var(--boton-rojo);
+}
 .center__boton .professional__boton__ver {
   color: var(--boton-azul);
   border-color: var(--boton-azul);
   margin: 0 auto;
   box-shadow: 0 2px 10px 5px #00000020;
+}
+.center__boton .professional__boton__ver:hover {
+  color: var(--background-ceniza-claro);
+  background-color: var(--boton-azul);
+  border-color: var(--boton-azul);
 }
 figure .boton {
   text-align: center;

@@ -20,13 +20,6 @@
   margin-bottom: 1.25rem;
 }
 
-.contacto__boton {
-  color: var(--boton-rojo);
-  border-color: var(--boton-rojo);
-  margin-top: 1.25rem;
-  box-shadow: 0 2px 10px 5px #00000020;
-}
-
 /*Contacto*/
 
 section.formcontato {
@@ -76,26 +69,25 @@ section.formcontato {
   box-shadow: 0 2px 10px 5px #00000020;
 }
 
-.formcontato__botao {
-  width: 30%;
-  height: 12.5%;
-  background-color: #8d0606;
-  color: #fdfdfd;
+.contacto__boton {
+  background-color: var(--background-ceniza-claro);
+  color: var(--boton-rojo);
 }
+
 .formcontato__input:hover {
-  background-color: #8d0606;
-  color: #fdfdfd;
+  background-color: var(--background-azul-claro);
+  color: var(--fuente-ceniza-oscuro);
   border-radius: 5px;
 }
 .formcontato__input:hover::placeholder {
-  background-color: #8d0606;
-  color: #fdfdfd;
+  background-color: var(--background-azul-claro);
+  color: var(--fuente-ceniza-oscuro);
   border-radius: 5px;
 }
 
 .formcontato__textarea:hover {
-  background-color: #8d0606;
-  color: #fdfdfd;
+  background-color: var(--background-azul-claro);
+  color: var(--fuente-ceniza-oscuro);
   border-radius: 5px;
 }
 .formcontato__textarea {
@@ -108,9 +100,9 @@ section.formcontato {
   border-radius: 5px;
 }
 
-.formcontato__botao:hover {
-  background-color: #fdfdfd;
-  color: #8d0606;
+.contacto__boton:hover {
+  background-color: var(--boton-rojo);
+  color: var(--background-ceniza-claro);
 }
 h2.formcontato__title {
   color: var(--fuente-ceniza-oscuro);

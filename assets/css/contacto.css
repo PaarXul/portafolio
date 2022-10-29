@@ -113,12 +113,22 @@ h2.formcontato__title {
 .formcontato__subtext {
   color: var(--fuente-ceniza-oscuro);
 }
+.caja__boton {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
 @media screen and (max-width: 1024px) {
   .formcontato--esquerda {
     display: none;
   }
   .contacto__boton {
     width: 50%;
+  }
+  .caja__boton {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
   }
   .formcontato__contacto .formcontato__text {
     padding-left: 0;

@@ -42,3 +42,9 @@
     border: none;
   }
 }
+
+.head__enlace:hover {
+  color: var(--planes-card-mega);
+  transform: scale(1.1);
+  text-decoration-line: underline;
+}

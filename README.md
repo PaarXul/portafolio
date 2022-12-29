@@ -1,3 +1,2 @@
 # Proyecto mi portafolio
-
-Archivos iniciales del proyecto para Apeperia del curso "Layouts Responsivos: Trabajando con layouts mobile", de Alura LATAM.
+Creacion del portafolio desarrollado en ONE - Oracle Next Education.
